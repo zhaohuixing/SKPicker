@@ -1,0 +1,987 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD6DFEEE246307620054304F /* SKPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6DFEEA246307620054304F /* SKPicker.swift */; };
+		AD6DFEEF246307620054304F /* SKPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6DFEEA246307620054304F /* SKPicker.swift */; };
+		AD6DFEF0246307620054304F /* SKPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6DFEEA246307620054304F /* SKPicker.swift */; };
+		AD6DFEF1246307620054304F /* SKPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6DFEEA246307620054304F /* SKPicker.swift */; };
+		AD6DFEF2246307620054304F /* SKPickerRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6DFEEB246307620054304F /* SKPickerRender.swift */; };
+		AD6DFEF3246307620054304F /* SKPickerRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6DFEEB246307620054304F /* SKPickerRender.swift */; };
+		AD6DFEF4246307620054304F /* SKPickerRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6DFEEB246307620054304F /* SKPickerRender.swift */; };
+		AD6DFEF5246307620054304F /* SKPickerRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6DFEEB246307620054304F /* SKPickerRender.swift */; };
+		AD6DFEF6246307620054304F /* SKPickerGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6DFEEC246307620054304F /* SKPickerGestureRecognizer.swift */; };
+		AD6DFEF7246307620054304F /* SKPickerGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6DFEEC246307620054304F /* SKPickerGestureRecognizer.swift */; };
+		AD6DFEF8246307620054304F /* SKPickerGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6DFEEC246307620054304F /* SKPickerGestureRecognizer.swift */; };
+		AD6DFEF9246307620054304F /* SKPickerGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6DFEEC246307620054304F /* SKPickerGestureRecognizer.swift */; };
+		AD6DFEFA246307620054304F /* SKPickerTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6DFEED246307620054304F /* SKPickerTypes.swift */; };
+		AD6DFEFB246307620054304F /* SKPickerTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6DFEED246307620054304F /* SKPickerTypes.swift */; };
+		AD6DFEFC246307620054304F /* SKPickerTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6DFEED246307620054304F /* SKPickerTypes.swift */; };
+		AD6DFEFD246307620054304F /* SKPickerTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6DFEED246307620054304F /* SKPickerTypes.swift */; };
+		AD807219245BDBA700FAE003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD807218245BDBA700FAE003 /* AppDelegate.swift */; };
+		AD80721B245BDBA700FAE003 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD80721A245BDBA700FAE003 /* GameViewController.swift */; };
+		AD80721E245BDBA700FAE003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD80721C245BDBA700FAE003 /* Main.storyboard */; };
+		AD807221245BDBA700FAE003 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD80721F245BDBA700FAE003 /* LaunchScreen.storyboard */; };
+		AD807226245BDBA700FAE003 /* TestPickerControl.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AD807225245BDBA700FAE003 /* TestPickerControl.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AD80722C245BDBA700FAE003 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD80722A245BDBA700FAE003 /* Interface.storyboard */; };
+		AD807233245BDBA700FAE003 /* TestPickerControl Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AD807232245BDBA700FAE003 /* TestPickerControl Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AD807238245BDBA700FAE003 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD807237245BDBA700FAE003 /* InterfaceController.swift */; };
+		AD80723A245BDBA700FAE003 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD807239245BDBA700FAE003 /* ExtensionDelegate.swift */; };
+		AD807243245BDBA700FAE003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD807242245BDBA700FAE003 /* AppDelegate.swift */; };
+		AD807245245BDBA700FAE003 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD807244245BDBA700FAE003 /* GameViewController.swift */; };
+		AD807248245BDBA700FAE003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD807246245BDBA700FAE003 /* Main.storyboard */; };
+		AD80724B245BDBA700FAE003 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD807249245BDBA700FAE003 /* LaunchScreen.storyboard */; };
+		AD807254245BDBA700FAE003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD807253245BDBA700FAE003 /* AppDelegate.swift */; };
+		AD807256245BDBA700FAE003 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD807255245BDBA700FAE003 /* GameViewController.swift */; };
+		AD807259245BDBA700FAE003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD807257245BDBA700FAE003 /* Main.storyboard */; };
+		AD80725B245BDBA700FAE003 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD80720D245BDBA200FAE003 /* Actions.sks */; };
+		AD80725C245BDBA700FAE003 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD80720D245BDBA200FAE003 /* Actions.sks */; };
+		AD80725D245BDBA700FAE003 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD80720D245BDBA200FAE003 /* Actions.sks */; };
+		AD80725E245BDBA700FAE003 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD80720E245BDBA200FAE003 /* GameScene.sks */; };
+		AD80725F245BDBA700FAE003 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD80720E245BDBA200FAE003 /* GameScene.sks */; };
+		AD807260245BDBA700FAE003 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD80720E245BDBA200FAE003 /* GameScene.sks */; };
+		AD807261245BDBA700FAE003 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD80720E245BDBA200FAE003 /* GameScene.sks */; };
+		AD807262245BDBA700FAE003 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD80720F245BDBA200FAE003 /* GameScene.swift */; };
+		AD807263245BDBA700FAE003 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD80720F245BDBA200FAE003 /* GameScene.swift */; };
+		AD807264245BDBA700FAE003 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD80720F245BDBA200FAE003 /* GameScene.swift */; };
+		AD807265245BDBA700FAE003 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD80720F245BDBA200FAE003 /* GameScene.swift */; };
+		AD807266245BDBA700FAE003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD807210245BDBA700FAE003 /* Assets.xcassets */; };
+		AD807267245BDBA700FAE003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD807210245BDBA700FAE003 /* Assets.xcassets */; };
+		AD807268245BDBA700FAE003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD807210245BDBA700FAE003 /* Assets.xcassets */; };
+		AD807269245BDBA700FAE003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD807210245BDBA700FAE003 /* Assets.xcassets */; };
+		AD92E02D2464F6F5001B4CDB /* SKPicker+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD92E02C2464F6F5001B4CDB /* SKPicker+extension.swift */; };
+		AD92E02E2464F6F5001B4CDB /* SKPicker+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD92E02C2464F6F5001B4CDB /* SKPicker+extension.swift */; };
+		AD92E02F2464F6F5001B4CDB /* SKPicker+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD92E02C2464F6F5001B4CDB /* SKPicker+extension.swift */; };
+		AD92E0302464F6F5001B4CDB /* SKPicker+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD92E02C2464F6F5001B4CDB /* SKPicker+extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD807227245BDBA700FAE003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD807208245BDBA200FAE003 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD807224245BDBA700FAE003;
+			remoteInfo = "TestPickerControl watchOS App";
+		};
+		AD807234245BDBA700FAE003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD807208245BDBA200FAE003 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD807231245BDBA700FAE003;
+			remoteInfo = "TestPickerControl watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD80726F245BDBA700FAE003 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AD807233245BDBA700FAE003 /* TestPickerControl Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD807273245BDBA700FAE003 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AD807226245BDBA700FAE003 /* TestPickerControl.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD6DFEEA246307620054304F /* SKPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKPicker.swift; path = PickerControl/SKPicker.swift; sourceTree = "<group>"; };
+		AD6DFEEB246307620054304F /* SKPickerRender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKPickerRender.swift; path = PickerControl/SKPickerRender.swift; sourceTree = "<group>"; };
+		AD6DFEEC246307620054304F /* SKPickerGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKPickerGestureRecognizer.swift; path = PickerControl/SKPickerGestureRecognizer.swift; sourceTree = "<group>"; };
+		AD6DFEED246307620054304F /* SKPickerTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKPickerTypes.swift; path = PickerControl/SKPickerTypes.swift; sourceTree = "<group>"; };
+		AD80720D245BDBA200FAE003 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		AD80720E245BDBA200FAE003 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		AD80720F245BDBA200FAE003 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AD807210245BDBA700FAE003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD807215245BDBA700FAE003 /* TestPickerControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPickerControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD807218245BDBA700FAE003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD80721A245BDBA700FAE003 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AD80721D245BDBA700FAE003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD807220245BDBA700FAE003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD807222245BDBA700FAE003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD807225245BDBA700FAE003 /* TestPickerControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPickerControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD80722B245BDBA700FAE003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		AD80722D245BDBA700FAE003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD807232245BDBA700FAE003 /* TestPickerControl Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TestPickerControl Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD807237245BDBA700FAE003 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		AD807239245BDBA700FAE003 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		AD80723B245BDBA700FAE003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD807240245BDBA700FAE003 /* TestPickerControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPickerControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD807242245BDBA700FAE003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD807244245BDBA700FAE003 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AD807247245BDBA700FAE003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD80724A245BDBA700FAE003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD80724C245BDBA700FAE003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD807251245BDBA700FAE003 /* TestPickerControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPickerControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD807253245BDBA700FAE003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD807255245BDBA700FAE003 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AD807258245BDBA700FAE003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD80725A245BDBA700FAE003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD92E02C2464F6F5001B4CDB /* SKPicker+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SKPicker+extension.swift"; path = "PickerControl/SKPicker+extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD807212245BDBA700FAE003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD80722F245BDBA700FAE003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD80723D245BDBA700FAE003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD80724E245BDBA700FAE003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD6DFEE92463074A0054304F /* PickerControl */ = {
+			isa = PBXGroup;
+			children = (
+				AD92E02C2464F6F5001B4CDB /* SKPicker+extension.swift */,
+				AD6DFEEA246307620054304F /* SKPicker.swift */,
+				AD6DFEEC246307620054304F /* SKPickerGestureRecognizer.swift */,
+				AD6DFEEB246307620054304F /* SKPickerRender.swift */,
+				AD6DFEED246307620054304F /* SKPickerTypes.swift */,
+			);
+			name = PickerControl;
+			sourceTree = "<group>";
+		};
+		AD807207245BDBA200FAE003 = {
+			isa = PBXGroup;
+			children = (
+				AD6DFEE92463074A0054304F /* PickerControl */,
+				AD80720C245BDBA200FAE003 /* TestPickerControl Shared */,
+				AD807217245BDBA700FAE003 /* TestPickerControl iOS */,
+				AD807229245BDBA700FAE003 /* TestPickerControl watchOS App */,
+				AD807236245BDBA700FAE003 /* TestPickerControl watchOS App Extension */,
+				AD807241245BDBA700FAE003 /* TestPickerControl tvOS */,
+				AD807252245BDBA700FAE003 /* TestPickerControl macOS */,
+				AD807216245BDBA700FAE003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD80720C245BDBA200FAE003 /* TestPickerControl Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AD80720D245BDBA200FAE003 /* Actions.sks */,
+				AD80720E245BDBA200FAE003 /* GameScene.sks */,
+				AD80720F245BDBA200FAE003 /* GameScene.swift */,
+				AD807210245BDBA700FAE003 /* Assets.xcassets */,
+			);
+			path = "TestPickerControl Shared";
+			sourceTree = "<group>";
+		};
+		AD807216245BDBA700FAE003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD807215245BDBA700FAE003 /* TestPickerControl.app */,
+				AD807225245BDBA700FAE003 /* TestPickerControl.app */,
+				AD807232245BDBA700FAE003 /* TestPickerControl Extension.appex */,
+				AD807240245BDBA700FAE003 /* TestPickerControl.app */,
+				AD807251245BDBA700FAE003 /* TestPickerControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD807217245BDBA700FAE003 /* TestPickerControl iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD807218245BDBA700FAE003 /* AppDelegate.swift */,
+				AD80721A245BDBA700FAE003 /* GameViewController.swift */,
+				AD80721C245BDBA700FAE003 /* Main.storyboard */,
+				AD80721F245BDBA700FAE003 /* LaunchScreen.storyboard */,
+				AD807222245BDBA700FAE003 /* Info.plist */,
+			);
+			path = "TestPickerControl iOS";
+			sourceTree = "<group>";
+		};
+		AD807229245BDBA700FAE003 /* TestPickerControl watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				AD80722A245BDBA700FAE003 /* Interface.storyboard */,
+				AD80722D245BDBA700FAE003 /* Info.plist */,
+			);
+			path = "TestPickerControl watchOS App";
+			sourceTree = "<group>";
+		};
+		AD807236245BDBA700FAE003 /* TestPickerControl watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AD807237245BDBA700FAE003 /* InterfaceController.swift */,
+				AD807239245BDBA700FAE003 /* ExtensionDelegate.swift */,
+				AD80723B245BDBA700FAE003 /* Info.plist */,
+			);
+			path = "TestPickerControl watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		AD807241245BDBA700FAE003 /* TestPickerControl tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD807242245BDBA700FAE003 /* AppDelegate.swift */,
+				AD807244245BDBA700FAE003 /* GameViewController.swift */,
+				AD807246245BDBA700FAE003 /* Main.storyboard */,
+				AD807249245BDBA700FAE003 /* LaunchScreen.storyboard */,
+				AD80724C245BDBA700FAE003 /* Info.plist */,
+			);
+			path = "TestPickerControl tvOS";
+			sourceTree = "<group>";
+		};
+		AD807252245BDBA700FAE003 /* TestPickerControl macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD807253245BDBA700FAE003 /* AppDelegate.swift */,
+				AD807255245BDBA700FAE003 /* GameViewController.swift */,
+				AD807257245BDBA700FAE003 /* Main.storyboard */,
+				AD80725A245BDBA700FAE003 /* Info.plist */,
+			);
+			path = "TestPickerControl macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD807214245BDBA700FAE003 /* TestPickerControl iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD807274245BDBA700FAE003 /* Build configuration list for PBXNativeTarget "TestPickerControl iOS" */;
+			buildPhases = (
+				AD807211245BDBA700FAE003 /* Sources */,
+				AD807212245BDBA700FAE003 /* Frameworks */,
+				AD807213245BDBA700FAE003 /* Resources */,
+				AD807273245BDBA700FAE003 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD807228245BDBA700FAE003 /* PBXTargetDependency */,
+			);
+			name = "TestPickerControl iOS";
+			productName = "TestPickerControl iOS";
+			productReference = AD807215245BDBA700FAE003 /* TestPickerControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD807224245BDBA700FAE003 /* TestPickerControl watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD807270245BDBA700FAE003 /* Build configuration list for PBXNativeTarget "TestPickerControl watchOS App" */;
+			buildPhases = (
+				AD807223245BDBA700FAE003 /* Resources */,
+				AD80726F245BDBA700FAE003 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD807235245BDBA700FAE003 /* PBXTargetDependency */,
+			);
+			name = "TestPickerControl watchOS App";
+			productName = "TestPickerControl watchOS App";
+			productReference = AD807225245BDBA700FAE003 /* TestPickerControl.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		AD807231245BDBA700FAE003 /* TestPickerControl watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD80726C245BDBA700FAE003 /* Build configuration list for PBXNativeTarget "TestPickerControl watchOS App Extension" */;
+			buildPhases = (
+				AD80722E245BDBA700FAE003 /* Sources */,
+				AD80722F245BDBA700FAE003 /* Frameworks */,
+				AD807230245BDBA700FAE003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TestPickerControl watchOS App Extension";
+			productName = "TestPickerControl watchOS App Extension";
+			productReference = AD807232245BDBA700FAE003 /* TestPickerControl Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		AD80723F245BDBA700FAE003 /* TestPickerControl tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD807277245BDBA700FAE003 /* Build configuration list for PBXNativeTarget "TestPickerControl tvOS" */;
+			buildPhases = (
+				AD80723C245BDBA700FAE003 /* Sources */,
+				AD80723D245BDBA700FAE003 /* Frameworks */,
+				AD80723E245BDBA700FAE003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TestPickerControl tvOS";
+			productName = "TestPickerControl tvOS";
+			productReference = AD807240245BDBA700FAE003 /* TestPickerControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD807250245BDBA700FAE003 /* TestPickerControl macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD80727A245BDBA700FAE003 /* Build configuration list for PBXNativeTarget "TestPickerControl macOS" */;
+			buildPhases = (
+				AD80724D245BDBA700FAE003 /* Sources */,
+				AD80724E245BDBA700FAE003 /* Frameworks */,
+				AD80724F245BDBA700FAE003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TestPickerControl macOS";
+			productName = "TestPickerControl macOS";
+			productReference = AD807251245BDBA700FAE003 /* TestPickerControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD807208245BDBA200FAE003 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = xgadget;
+				TargetAttributes = {
+					AD807214245BDBA700FAE003 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					AD807224245BDBA700FAE003 = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
+					AD807231245BDBA700FAE003 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					AD80723F245BDBA700FAE003 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					AD807250245BDBA700FAE003 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = AD80720B245BDBA200FAE003 /* Build configuration list for PBXProject "TestPickerControl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD807207245BDBA200FAE003;
+			productRefGroup = AD807216245BDBA700FAE003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD807214245BDBA700FAE003 /* TestPickerControl iOS */,
+				AD807224245BDBA700FAE003 /* TestPickerControl watchOS App */,
+				AD807231245BDBA700FAE003 /* TestPickerControl watchOS App Extension */,
+				AD80723F245BDBA700FAE003 /* TestPickerControl tvOS */,
+				AD807250245BDBA700FAE003 /* TestPickerControl macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD807213245BDBA700FAE003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD80725E245BDBA700FAE003 /* GameScene.sks in Resources */,
+				AD80721E245BDBA700FAE003 /* Main.storyboard in Resources */,
+				AD80725B245BDBA700FAE003 /* Actions.sks in Resources */,
+				AD807221245BDBA700FAE003 /* LaunchScreen.storyboard in Resources */,
+				AD807266245BDBA700FAE003 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD807223245BDBA700FAE003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD807267245BDBA700FAE003 /* Assets.xcassets in Resources */,
+				AD80722C245BDBA700FAE003 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD807230245BDBA700FAE003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD80725F245BDBA700FAE003 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD80723E245BDBA700FAE003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD807260245BDBA700FAE003 /* GameScene.sks in Resources */,
+				AD807248245BDBA700FAE003 /* Main.storyboard in Resources */,
+				AD80725C245BDBA700FAE003 /* Actions.sks in Resources */,
+				AD80724B245BDBA700FAE003 /* LaunchScreen.storyboard in Resources */,
+				AD807268245BDBA700FAE003 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD80724F245BDBA700FAE003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD807259245BDBA700FAE003 /* Main.storyboard in Resources */,
+				AD807261245BDBA700FAE003 /* GameScene.sks in Resources */,
+				AD807269245BDBA700FAE003 /* Assets.xcassets in Resources */,
+				AD80725D245BDBA700FAE003 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD807211245BDBA700FAE003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD807262245BDBA700FAE003 /* GameScene.swift in Sources */,
+				AD6DFEFA246307620054304F /* SKPickerTypes.swift in Sources */,
+				AD6DFEF6246307620054304F /* SKPickerGestureRecognizer.swift in Sources */,
+				AD6DFEEE246307620054304F /* SKPicker.swift in Sources */,
+				AD80721B245BDBA700FAE003 /* GameViewController.swift in Sources */,
+				AD807219245BDBA700FAE003 /* AppDelegate.swift in Sources */,
+				AD6DFEF2246307620054304F /* SKPickerRender.swift in Sources */,
+				AD92E02D2464F6F5001B4CDB /* SKPicker+extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD80722E245BDBA700FAE003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD807263245BDBA700FAE003 /* GameScene.swift in Sources */,
+				AD6DFEFB246307620054304F /* SKPickerTypes.swift in Sources */,
+				AD6DFEF7246307620054304F /* SKPickerGestureRecognizer.swift in Sources */,
+				AD6DFEEF246307620054304F /* SKPicker.swift in Sources */,
+				AD80723A245BDBA700FAE003 /* ExtensionDelegate.swift in Sources */,
+				AD807238245BDBA700FAE003 /* InterfaceController.swift in Sources */,
+				AD6DFEF3246307620054304F /* SKPickerRender.swift in Sources */,
+				AD92E02E2464F6F5001B4CDB /* SKPicker+extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD80723C245BDBA700FAE003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD807264245BDBA700FAE003 /* GameScene.swift in Sources */,
+				AD6DFEFC246307620054304F /* SKPickerTypes.swift in Sources */,
+				AD6DFEF8246307620054304F /* SKPickerGestureRecognizer.swift in Sources */,
+				AD6DFEF0246307620054304F /* SKPicker.swift in Sources */,
+				AD807245245BDBA700FAE003 /* GameViewController.swift in Sources */,
+				AD807243245BDBA700FAE003 /* AppDelegate.swift in Sources */,
+				AD6DFEF4246307620054304F /* SKPickerRender.swift in Sources */,
+				AD92E02F2464F6F5001B4CDB /* SKPicker+extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD80724D245BDBA700FAE003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD807265245BDBA700FAE003 /* GameScene.swift in Sources */,
+				AD6DFEFD246307620054304F /* SKPickerTypes.swift in Sources */,
+				AD6DFEF9246307620054304F /* SKPickerGestureRecognizer.swift in Sources */,
+				AD6DFEF1246307620054304F /* SKPicker.swift in Sources */,
+				AD807256245BDBA700FAE003 /* GameViewController.swift in Sources */,
+				AD807254245BDBA700FAE003 /* AppDelegate.swift in Sources */,
+				AD6DFEF5246307620054304F /* SKPickerRender.swift in Sources */,
+				AD92E0302464F6F5001B4CDB /* SKPicker+extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD807228245BDBA700FAE003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD807224245BDBA700FAE003 /* TestPickerControl watchOS App */;
+			targetProxy = AD807227245BDBA700FAE003 /* PBXContainerItemProxy */;
+		};
+		AD807235245BDBA700FAE003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD807231245BDBA700FAE003 /* TestPickerControl watchOS App Extension */;
+			targetProxy = AD807234245BDBA700FAE003 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD80721C245BDBA700FAE003 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD80721D245BDBA700FAE003 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD80721F245BDBA700FAE003 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD807220245BDBA700FAE003 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AD80722A245BDBA700FAE003 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD80722B245BDBA700FAE003 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		AD807246245BDBA700FAE003 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD807247245BDBA700FAE003 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD807249245BDBA700FAE003 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD80724A245BDBA700FAE003 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AD807257245BDBA700FAE003 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD807258245BDBA700FAE003 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD80726A245BDBA700FAE003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD80726B245BDBA700FAE003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD80726D245BDBA700FAE003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5R39HZD8Q;
+				INFOPLIST_FILE = "TestPickerControl watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xgadget.TestPickerControl.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "TestPickerControl Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		AD80726E245BDBA700FAE003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5R39HZD8Q;
+				INFOPLIST_FILE = "TestPickerControl watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xgadget.TestPickerControl.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "TestPickerControl Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		AD807271245BDBA700FAE003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5R39HZD8Q;
+				IBSC_MODULE = TestPickerControl_Extension;
+				INFOPLIST_FILE = "TestPickerControl watchOS App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xgadget.TestPickerControl.watchkitapp;
+				PRODUCT_NAME = TestPickerControl;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		AD807272245BDBA700FAE003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5R39HZD8Q;
+				IBSC_MODULE = TestPickerControl_Extension;
+				INFOPLIST_FILE = "TestPickerControl watchOS App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xgadget.TestPickerControl.watchkitapp;
+				PRODUCT_NAME = TestPickerControl;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		AD807275245BDBA700FAE003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5R39HZD8Q;
+				INFOPLIST_FILE = "TestPickerControl iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xgadget.TestPickerControl;
+				PRODUCT_NAME = TestPickerControl;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD807276245BDBA700FAE003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5R39HZD8Q;
+				INFOPLIST_FILE = "TestPickerControl iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xgadget.TestPickerControl;
+				PRODUCT_NAME = TestPickerControl;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD807278245BDBA700FAE003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5R39HZD8Q;
+				INFOPLIST_FILE = "TestPickerControl tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xgadget.TestPickerControl;
+				PRODUCT_NAME = TestPickerControl;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		AD807279245BDBA700FAE003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5R39HZD8Q;
+				INFOPLIST_FILE = "TestPickerControl tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xgadget.TestPickerControl;
+				PRODUCT_NAME = TestPickerControl;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD80727B245BDBA700FAE003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S5R39HZD8Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "TestPickerControl macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xgadget.TestPickerControl;
+				PRODUCT_NAME = TestPickerControl;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD80727C245BDBA700FAE003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S5R39HZD8Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "TestPickerControl macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xgadget.TestPickerControl;
+				PRODUCT_NAME = TestPickerControl;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD80720B245BDBA200FAE003 /* Build configuration list for PBXProject "TestPickerControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD80726A245BDBA700FAE003 /* Debug */,
+				AD80726B245BDBA700FAE003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD80726C245BDBA700FAE003 /* Build configuration list for PBXNativeTarget "TestPickerControl watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD80726D245BDBA700FAE003 /* Debug */,
+				AD80726E245BDBA700FAE003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD807270245BDBA700FAE003 /* Build configuration list for PBXNativeTarget "TestPickerControl watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD807271245BDBA700FAE003 /* Debug */,
+				AD807272245BDBA700FAE003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD807274245BDBA700FAE003 /* Build configuration list for PBXNativeTarget "TestPickerControl iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD807275245BDBA700FAE003 /* Debug */,
+				AD807276245BDBA700FAE003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD807277245BDBA700FAE003 /* Build configuration list for PBXNativeTarget "TestPickerControl tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD807278245BDBA700FAE003 /* Debug */,
+				AD807279245BDBA700FAE003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD80727A245BDBA700FAE003 /* Build configuration list for PBXNativeTarget "TestPickerControl macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD80727B245BDBA700FAE003 /* Debug */,
+				AD80727C245BDBA700FAE003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD807208245BDBA200FAE003 /* Project object */;
+}
