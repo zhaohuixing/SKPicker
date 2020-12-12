@@ -21,3 +21,5 @@ In SKPicker class, the property of “selection” provides current selected ite
 In SKPicker class, there are some read-only properties indication the SKPicker control real time status.
       
 The protocol of SKPickerHost is a delegate of SKPicker class which allow SKPicker object’s user is able to be notified and response SKPicker object status change.
+
+The posit in reddit.com is at https://www.reddit.com/r/iOSProgramming/comments/hi8rur/a_spritekit_base_picker_control_for_ios_game/. 
